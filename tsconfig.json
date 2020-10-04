@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "build/",
+    "target": "esnext",
+    "moduleResolution": "node", //enables checking of import logic (goto definition)
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"],
+    "watch": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
